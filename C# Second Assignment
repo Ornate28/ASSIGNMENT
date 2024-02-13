@@ -1,0 +1,38 @@
+using System;
+
+using System.Collections.Generic;
+
+using System.IO;
+
+
+class Solution {
+
+ static void Main(String[] args) {
+
+ int i = 4;
+
+ double d = 4.0;
+
+ string s = "Polyilaro ";
+
+ 
+ 
+ Console.WriteLine (s);
+ 
+     int f_num = int.Parse (Console.ReadLine());
+
+     int sum = i +f_num;
+
+
+ Console.WriteLine ($"The sum of both intergers is : {sum}" );
+     
+     double n = double.Parse (Console.ReadLine());
+     double add = d + n;
+
+ Console.WriteLine ($"The sum of both double is: {add}");
+     
+     string statement = Console.ReadLine();
+     string f_statement = s + " " + statement ;
+ Console.WriteLine (f_statement );
+}
+}
