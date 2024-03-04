@@ -1,0 +1,23 @@
+using System;
+
+namespace Assignment
+{
+    class AscendingOrder
+    {
+       public static void Main(string[] args)
+        {
+        int x,y,z;
+        Console.WriteLine("Enter three numbers");
+        x = int.Parse (Console.ReadLine());
+        y = int.Parse (Console.ReadLine());
+        z = int.Parse (Console.ReadLine());
+        int[] tnum={x,y,z};
+        Array.Sort (tnum);
+        
+     Console.WriteLine ("Show numbers in ascending order");
+     foreach (int number in tnum){
+         Console.WriteLine (number);
+     }
+        }
+    }
+}
