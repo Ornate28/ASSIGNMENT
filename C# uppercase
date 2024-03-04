@@ -1,0 +1,17 @@
+using System;
+
+namespace Assignment
+{
+    class Uppercase 
+    {
+    public static void Main(string[] args){
+   String name;
+   Console.WriteLine("Enter the name");
+   name = Console.ReadLine();
+   String[] nameArray = new String[1];
+   nameArray [0] = name;
+   String newname = nameArray[0].ToUpper();
+   Console.WriteLine(newname);
+        }
+    }
+}
