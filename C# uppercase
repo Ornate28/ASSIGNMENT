@@ -5,11 +5,11 @@ namespace Assignment
     class Uppercase 
     {
     public static void Main(string[] args){
-   String name;
+   String myname;
    Console.WriteLine("Enter the name");
-   name = Console.ReadLine();
+   myname = Console.ReadLine();
    String[] nameArray = new String[1];
-   nameArray [0] = name;
+   nameArray [0] = myname;
    String newname = nameArray[0].ToUpper();
    Console.WriteLine(newname);
         }
