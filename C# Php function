@@ -1,0 +1,29 @@
+using System;
+
+namespace Assignment
+{
+    class Assignment2
+    {
+     
+static int smallestIndex( int[] arrayElement, int size){
+        int minimum = arrayElement[0];
+       int minimumIndex = 0;
+           for(int i = 0; i < size; i++){
+           if (arrayElement[i] < minimum){
+               minimum = arrayElement[i];
+               minimumIndex = i;
+           }
+       }
+       return minimumIndex;
+    }
+    
+    
+    
+       public static void Main(string[] args){
+   
+   int[] ourarray = {6,2,3,1,5};
+  int answer = smallestIndex(ourarray, ourarray.Length);
+           Console.WriteLine(answer);
+        }
+    }
+}
